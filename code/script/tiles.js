@@ -1,8 +1,8 @@
 var tiles = [];
 
-function Tile() {
+function Tile(xOffset, yOffset) {
 
-	this.texture = new Sprite(spriteSheet, scale, scale, 0, 0);
+	this.texture = new Sprite(spriteSheet, xOffset, yOffset);
 
 	this.init = function() {
 		tiles.push(this);	

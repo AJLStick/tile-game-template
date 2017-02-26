@@ -1,12 +1,21 @@
 body {
-	padding: 0;
-	margin: 0;
 	background-color: #767676;
+	font: 15px/1.5 Arial, sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 #game-view {
-	display: block;
-	margin: auto;
-	margin-top: 1px;
 	border: 1px solid black;
+	display: block;
+	margin-top: 1px;
+	margin: auto;
+}
+
+#fps-view {
+	display: inline-block;
+}
+
+#fps-view p {
+	text-align: center;
 }
