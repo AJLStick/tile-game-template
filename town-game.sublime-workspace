@@ -11,6 +11,42 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "code/script/main.js",
+			"settings":
+			{
+				"buffer_size": 491,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "body {\n\tpadding: 0;\n\tmargin: 0;\n\tbackground-color: #767676;\n}\n\n#game-view {\n\tdisplay: block;\n\tmargin: auto;\n\tmargin-top: 1px;\n\tborder: 1px solid black;\n}",
+			"file": "code/css/style.css",
+			"file_size": 164,
+			"file_write_time": 131323872381815544,
+			"settings":
+			{
+				"buffer_size": 153,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "code/index.html",
+			"settings":
+			{
+				"buffer_size": 374,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "code/script/map.js",
+			"settings":
+			{
+				"buffer_size": 742,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -115,6 +151,13 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/D/Files/Code/Websites/2017/February/Town-Game",
+		"/D/Files/Code/Websites/2017/February/Town-Game/code",
+		"/D/Files/Code/Websites/2017/February/Town-Game/code/css",
+		"/D/Files/Code/Websites/2017/February/Town-Game/code/script"
+	],
 	"file_history":
 	[
 		"/D/Files/Code/Websites/2017/February/Town-Game/script/main.js",
@@ -141,7 +184,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -184,13 +227,128 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
-			]
-		},
-		{
-			"sheets":
-			[
+				{
+					"buffer": 0,
+					"file": "code/script/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 491,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								491,
+								491
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Extended (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "code/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								153
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Extended (SL).tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "code/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 374,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								374
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Extended (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "code/script/map.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								742
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Extended (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -211,18 +369,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.379885057471,
 			1.0
 		],
 		"rows":

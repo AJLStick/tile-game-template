@@ -3,10 +3,18 @@ window.onload = function() {
 };
 
 var scale = 50;
+var tps = 3;
+
+var spriteSheet = new Image();
 
 function init() {
 	gameView = document.getElementById("game-view");
 	renderer = gameView.getContext("2d");
+	renderer.imageSmoothingEnabled = false;
+	spriteSheet.src = "../code/img/spritesheet.png";
+
+	var grass = new Tile();
+	grass.init();
 
 	mainMap = new Map(16, 16);
 	mainMap.init();
@@ -15,7 +23,7 @@ function init() {
 	renderer.fillRect(0, 0, gameView.width, gameView.height);
 
 	maps[0].render();
-	setInterval(tick, 1000);
+	setInterval(tick, 1000/tps);
 }
 
 function tick() {

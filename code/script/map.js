@@ -15,7 +15,7 @@ function Map(height, width) {
 
 		for (var x = 0; x < this.xMax; x++) {
 			for (var y = 0; y < this.yMax; y++) {
-				this.tiles[x][y] = "0";
+				this.tiles[x][y] = tiles[0];
 			}
 		}
 	};
@@ -24,9 +24,8 @@ function Map(height, width) {
 		console.log("render");
 		for (var x = 0; x < this.xMax; x++) {
 			for (var y = 0; y < this.yMax; y++) {
-				if (this.tiles[x][y] === '0') {
-					renderer.fillStyle = "rgb(" + x * 10 + ", " + y * 10 + ", 100)";
-					renderer.fillRect(x * scale, y * scale, scale, scale);
+				if (this.tiles[x][y] === tiles[0]) {
+					tiles[0].texture.draw(x * scale, y * scale);
 				}
 			}
 		}
